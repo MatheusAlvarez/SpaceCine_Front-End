@@ -1,0 +1,19 @@
+/* ------- RESET ------- */
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    box-sizing: border-box;    
+}
+
+/* -------- Variáveis --------*/
+:root{
+    --color-purple900: #10002B; 
+    --color-purple800: #240046;
+    --color-purple700: #3C096C;
+    --color-purple600: #5A189A;
+    --color-purple500: #7B2CBF;
+    --color-purple400: #9D4EDD;
+    --color-purple300: #C77DFF;
+}
+
