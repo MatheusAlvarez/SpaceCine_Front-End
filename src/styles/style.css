@@ -79,3 +79,68 @@ main p{
 .btnSecondary{
     border: 1px solid var(--color-white);
 }
+
+/* ------------- SECTION SHOWING MOVIES ------------- */
+.section-showing{
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    background-color: var(--color-dark);
+}
+
+.showing-content, .showing-container-movies{
+    width: 1072px;
+}
+
+.showing-content span{
+    color: var(--color-purple300);
+    font-family: var(--font-title);
+    font-size: 18px;
+}
+
+.showing-content h2{
+    color: var(--color-white);
+    font-family: var(--font-title);
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.showing-container-movies{
+    display: flex;
+    gap: 18px;
+}
+
+.card-movies h3{
+    color: var(--color-white);
+    font-family: var(--font-title);
+    font-weight: 400;
+    font-size: 18px;   
+    line-height: 12px;
+}
+
+.movies-details{
+    display: flex;
+    justify-content: space-between;
+}
+
+.movies-details > span{
+    color: var(--color-purple300);
+    font-family: var(--font-title);
+    font-size: 12px;
+}
+
+.movie-avaliation{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.movie-avaliation span{
+    color: var(--color-yellow);
+    font-size: 12px;
+    font-family: var(--font-title);
+    font-weight: 400;
+}
